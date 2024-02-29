@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./desktop-7.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source Sans 3:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-7">
+      <div class="desktop-7-inner">
+        <div class="rectangle-area-parent">
+          <img
+            class="rectangle-area-icon"
+            loading="lazy"
+            alt=""
+            src="./public/rectangle-20@2x.png"
+          />
+
+          <h1 class="superstar-shoes">Superstar Shoes</h1>
+          <div class="price-frame">
+            <div class="mrp-in-indian-container">
+              <p class="mrp-in-indian">MRP in Indian currency:</p>
+              <p class="p">₹8 999.00</p>
+              <p class="per-pair">per pair</p>
+              <p class="inclusive-of-all">(Inclusive of all taxes)</p>
+            </div>
+            <div class="net-banking-frame">
+              <b class="sizes">Sizes</b>
+              <div class="pay-on-delivery-frame">
+                <div class="address-frame">
+                  <div class="address-frame-child"></div>
+                  <b class="contact-lines">7</b>
+                </div>
+                <div class="address-frame1">
+                  <div class="address-frame-item"></div>
+                  <b class="b">8</b>
+                </div>
+                <div class="address-frame2">
+                  <div class="address-frame-inner"></div>
+                  <b class="b1">9</b>
+                </div>
+                <div class="address-frame3">
+                  <div class="address-frame-child1"></div>
+                  <b class="b2">10</b>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="payment-selection-frame">
+        <div class="net-banking-ellipse">
+          <div class="u-p-i-ellipse">
+            <div class="billing-address-frame">
+              <div class="mobile-number-frame">
+                <div class="size-selector">
+                  <div class="frame-a">
+                    <div class="address-parent">
+                      <input
+                        class="address"
+                        placeholder="Address"
+                        type="text"
+                      />
+
+                      <div class="line-separator"></div>
+                    </div>
+                  </div>
+                  <div class="mobile-number">
+                    <div class="payment-method-label">
+                      <div class="payment-method-label-child"></div>
+                      <b class="a104-xyz-container">
+                        <p class="a104-xyz">A/104 , Xyz society</p>
+                        <p class="ahmedabad">Ahmedabad</p>
+                        <p class="pin-00xxxx">Pin 00xxxx</p>
+                      </b>
+                    </div>
+                  </div>
+                  <div class="order-button-parent">
+                    <div class="order-button"></div>
+                    <input
+                      class="mobile-no"
+                      placeholder="Mobile No."
+                      type="text"
+                    />
+                  </div>
+                  <div class="payment-options">
+                    <div class="empty-frame">
+                      <div class="empty-frame-child"></div>
+                      <b class="instruction-text">123456789</b>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="payment-method-parent">
+                <h2 class="payment-method">Payment Method</h2>
+                <div class="order-confirmation"></div>
+              </div>
+            </div>
+            <div class="payment-modes">
+              <div class="net-banking-u-p-i-payment">
+                <div class="ellipses"></div>
+                <div class="net-banking">Net Banking</div>
+              </div>
+            </div>
+            <div class="payment-modes1">
+              <div class="ellipse-parent">
+                <div class="ellipse-div"></div>
+                <div class="upi">UPI</div>
+              </div>
+            </div>
+            <div class="payment-modes2">
+              <div class="ellipse-group">
+                <div class="frame-child3"></div>
+                <div class="pay-on-delivery">Pay On Delivery</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="frame-group">
+          <div class="frame-wrapper">
+            <button class="rectangle-parent3">
+              <div class="frame-child4"></div>
+              <b class="cancel">Cancel</b>
+            </button>
+          </div>
+          <button class="order-frame-parent">
+            <div class="order-frame" id="orderFrame"></div>
+            <b class="place-order" id="placeOrderText">Place Order</b>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var orderFrame = document.getElementById("orderFrame");
+      if (orderFrame) {
+        orderFrame.addEventListener("click", function (e) {
+          window.location.href = "./desktop-9.html";
+        });
+      }
+      
+      var placeOrderText = document.getElementById("placeOrderText");
+      if (placeOrderText) {
+        placeOrderText.addEventListener("click", function (e) {
+          window.location.href = "./desktop-9.html";
+        });
+      }
+      </script>
+  </body>
+</html>

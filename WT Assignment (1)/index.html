@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source Sans 3:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-1">
+      <div class="wrapper-adidas-eqt-gpr-product">
+        <img
+          class="adidas-eqt-gpr-product-page-mi-icon"
+          alt=""
+          src="./public/adidaseqtgprproductpagemin-1@2x.png"
+        />
+      </div>
+      <button class="parent-frame">
+        <div class="rectangle-child" id="rectangleChild"></div>
+        <b class="shop-now" id="shopNowText">Shop Now</b>
+      </button>
+    </div>
+
+    <script>
+      var rectangleChild = document.getElementById("rectangleChild");
+      if (rectangleChild) {
+        rectangleChild.addEventListener("click", function (e) {
+          window.location.href = "./desktop1.html";
+        });
+      }
+      
+      var shopNowText = document.getElementById("shopNowText");
+      if (shopNowText) {
+        shopNowText.addEventListener("click", function (e) {
+          window.location.href = "./desktop1.html";
+        });
+      }
+      </script>
+  </body>
+</html>
